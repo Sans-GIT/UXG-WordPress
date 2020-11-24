@@ -1,0 +1,24 @@
+/*
+Theme Name: UXGURUS
+Theme URI: https://example.com
+Author: Mohamed Asheik P
+Author URI: https://facebook.com
+Description: Just another theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: UXGURUS
+Tags:*/
+.uxgheader__navlistcont li {
+    margin: 0 24px;
+    display: inline-block;
+}
+.uxgheader__navlistcont li  a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.55px;
+    color: var(--desc-text-color);
+    font-family: var(--uxg-semibold-font);
+}
